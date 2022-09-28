@@ -1,0 +1,399 @@
+{
+  "connections" : [
+    {
+      "fromComp" : "942D3A2F-3F08-4ABD-9C3F-856F8C042884",
+      "fromIO" : "json",
+      "toComp" : "FF6A5BE8-654C-4170-B168-48995A44A9E1",
+      "toIO" : "scene"
+    },
+    {
+      "fromComp" : "41DB0E6B-ECF3-4703-9F3E-7F5361FA13FA",
+      "fromIO" : "image",
+      "toComp" : "E7847A1E-8D19-4D92-90C0-E53A0B6839FA",
+      "toIO" : "fs_tex"
+    },
+    {
+      "fromComp" : "D469D5E4-E1E0-4318-B298-F040E4CBB6E7",
+      "fromIO" : "renderState",
+      "toComp" : "E7847A1E-8D19-4D92-90C0-E53A0B6839FA",
+      "toIO" : "renderState"
+    },
+    {
+      "fromComp" : "06C70009-07F1-453C-A2F7-A12DD18F1BD0",
+      "fromIO" : "size",
+      "toComp" : "609BD0D7-2F7B-439E-870C-5FB0CBE06C69",
+      "toIO" : "size"
+    },
+    {
+      "fromComp" : "06C70009-07F1-453C-A2F7-A12DD18F1BD0",
+      "fromIO" : "cameraFrame",
+      "toComp" : "609BD0D7-2F7B-439E-870C-5FB0CBE06C69",
+      "toIO" : "clearColor"
+    },
+    {
+      "fromComp" : "06C70009-07F1-453C-A2F7-A12DD18F1BD0",
+      "fromIO" : "blendShapes",
+      "toComp" : "7D3341AB-EB06-4E81-ADB1-80B9167E49C1",
+      "toIO" : "blendShapes"
+    },
+    {
+      "fromComp" : "06C70009-07F1-453C-A2F7-A12DD18F1BD0",
+      "fromIO" : "faceTransform",
+      "toComp" : "0EB9AA9F-6938-40E0-B27F-124383545093",
+      "toIO" : "m"
+    },
+    {
+      "fromComp" : "06C70009-07F1-453C-A2F7-A12DD18F1BD0",
+      "fromIO" : "viewMatrix",
+      "toComp" : "0EB9AA9F-6938-40E0-B27F-124383545093",
+      "toIO" : "v"
+    },
+    {
+      "fromComp" : "06C70009-07F1-453C-A2F7-A12DD18F1BD0",
+      "fromIO" : "projectionMatrix",
+      "toComp" : "0EB9AA9F-6938-40E0-B27F-124383545093",
+      "toIO" : "p"
+    },
+    {
+      "fromComp" : "07EDE819-120A-4E67-912E-1793A8C77117",
+      "fromIO" : "c",
+      "toComp" : "0EB9AA9F-6938-40E0-B27F-124383545093",
+      "toIO" : "scale"
+    },
+    {
+      "fromComp" : "FF6A5BE8-654C-4170-B168-48995A44A9E1",
+      "fromIO" : "baseMesh",
+      "toComp" : "E7847A1E-8D19-4D92-90C0-E53A0B6839FA",
+      "toIO" : "mesh"
+    },
+    {
+      "fromComp" : "FF6A5BE8-654C-4170-B168-48995A44A9E1",
+      "fromIO" : "numVertex",
+      "toComp" : "E7847A1E-8D19-4D92-90C0-E53A0B6839FA",
+      "toIO" : "vs_numVertex"
+    },
+    {
+      "fromComp" : "FF6A5BE8-654C-4170-B168-48995A44A9E1",
+      "fromIO" : "animMeshes",
+      "toComp" : "E7847A1E-8D19-4D92-90C0-E53A0B6839FA",
+      "toIO" : "vs_animMeshes"
+    },
+    {
+      "fromComp" : "FF6A5BE8-654C-4170-B168-48995A44A9E1",
+      "fromIO" : "numAnimMesh",
+      "toComp" : "E7847A1E-8D19-4D92-90C0-E53A0B6839FA",
+      "toIO" : "vs_numAnimMesh"
+    },
+    {
+      "fromComp" : "FF6A5BE8-654C-4170-B168-48995A44A9E1",
+      "fromIO" : "animMeshNames",
+      "toComp" : "7D3341AB-EB06-4E81-ADB1-80B9167E49C1",
+      "toIO" : "animMeshNames"
+    },
+    {
+      "fromComp" : "0EB9AA9F-6938-40E0-B27F-124383545093",
+      "fromIO" : "return",
+      "toComp" : "E7847A1E-8D19-4D92-90C0-E53A0B6839FA",
+      "toIO" : "vs_mvp"
+    },
+    {
+      "fromComp" : "7D3341AB-EB06-4E81-ADB1-80B9167E49C1",
+      "fromIO" : "return",
+      "toComp" : "E7847A1E-8D19-4D92-90C0-E53A0B6839FA",
+      "toIO" : "vs_blendShapes"
+    }
+  ],
+  "lights" : [
+    {
+      "color" : [
+        0.21199999749660492,
+        0.22699999809265137,
+        0.25900000333786011,
+        1
+      ],
+      "intensity" : 1,
+      "position" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "color" : [
+        1,
+        0.9570000171661377,
+        0.83899998664855957,
+        1
+      ],
+      "intensity" : 1,
+      "position" : [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "color" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "intensity" : 1,
+      "position" : [
+        -1,
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "color" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "intensity" : 1,
+      "position" : [
+        -1,
+        -1,
+        1,
+        1
+      ]
+    },
+    {
+      "color" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "intensity" : 1,
+      "position" : [
+        1,
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "color" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "intensity" : 1,
+      "position" : [
+        1,
+        -1,
+        1,
+        1
+      ]
+    },
+    {
+      "color" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "intensity" : 1,
+      "position" : [
+        -1,
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "color" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "intensity" : 1,
+      "position" : [
+        -1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "color" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "intensity" : 1,
+      "position" : [
+        1,
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "color" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "intensity" : 1,
+      "position" : [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes" : [
+    {
+      "children" : [
+        {
+          "title" : "model",
+          "type" : "JSONScript",
+          "uuid" : "942D3A2F-3F08-4ABD-9C3F-856F8C042884"
+        }
+      ],
+      "nodeTitle" : "JSON",
+      "type" : "Node",
+      "uuid" : "B096F8F4-7C29-42B9-A0F8-D61C2EA49972",
+      "x" : -59.512781761621049,
+      "y" : -129.65424571791135
+    },
+    {
+      "nodeTitle" : "ImagePicker",
+      "type" : "ImagePickerNode",
+      "uuid" : "41DB0E6B-ECF3-4703-9F3E-7F5361FA13FA",
+      "x" : 378.85732941728105,
+      "y" : 403.88944398556828
+    },
+    {
+      "alphaBlendOperation" : 0,
+      "depthCompareFunction" : 3,
+      "destinationAlphaBlendFactor" : 0,
+      "destinationRGBBlendFactor" : 0,
+      "isBlendingEnabled" : false,
+      "isDepthWriteEnabled" : true,
+      "isHidden" : false,
+      "nodeTitle" : "RenderState",
+      "rgbBlendOperation" : 0,
+      "sourceAlphaBlendFactor" : 1,
+      "sourceRGBBlendFactor" : 1,
+      "type" : "RenderStateNode",
+      "uuid" : "D469D5E4-E1E0-4318-B298-F040E4CBB6E7",
+      "wireframe" : false,
+      "x" : 595.0420861405396,
+      "y" : -355.71082935883805
+    },
+    {
+      "nodeTitle" : "FaceTrackingAR",
+      "type" : "FaceTrackingARNode",
+      "uuid" : "06C70009-07F1-453C-A2F7-A12DD18F1BD0",
+      "x" : -304.08645996728842,
+      "y" : -208.47763401312901
+    },
+    {
+      "a" : 0.080000000000000002,
+      "b" : 0.14999999999999999,
+      "nodeTitle" : "Mix",
+      "slider" : 0.19248077273368835,
+      "type" : "MixNode",
+      "uuid" : "07EDE819-120A-4E67-912E-1793A8C77117",
+      "x" : -298.4495147527561,
+      "y" : 473.86026885249345
+    },
+    {
+      "children" : [
+        {
+          "jsReturns" : [
+            "baseMesh",
+            "numVertex",
+            "animMeshes",
+            "numAnimMesh",
+            "animMeshNames"
+          ],
+          "title" : "driver",
+          "type" : "JSScript",
+          "uuid" : "FF6A5BE8-654C-4170-B168-48995A44A9E1"
+        }
+      ],
+      "nodeTitle" : "Javascript",
+      "type" : "JavascriptNode",
+      "uuid" : "ACAEDD5F-1F69-49FC-BB9B-53AEA541AC65",
+      "x" : 275.50953035232573,
+      "y" : -182.98532395640919
+    },
+    {
+      "children" : [
+        {
+          "jsReturns" : [
+            "return"
+          ],
+          "title" : "Untitled",
+          "type" : "JSScript",
+          "uuid" : "0EB9AA9F-6938-40E0-B27F-124383545093"
+        }
+      ],
+      "nodeTitle" : "Javascript",
+      "type" : "JavascriptNode",
+      "uuid" : "746A3961-0C76-47CA-9553-24A5C9AECDB3",
+      "x" : 42.025238654952247,
+      "y" : 463.12457842972782
+    },
+    {
+      "children" : [
+        {
+          "jsReturns" : [
+            "return"
+          ],
+          "title" : "weights",
+          "type" : "JSScript",
+          "uuid" : "7D3341AB-EB06-4E81-ADB1-80B9167E49C1"
+        }
+      ],
+      "nodeTitle" : "Javascript",
+      "type" : "JavascriptNode",
+      "uuid" : "6E5CAD61-BADD-4007-96FE-8C7B3AECEA40",
+      "x" : 366.491365023127,
+      "y" : 165.37040540823946
+    },
+    {
+      "children" : [
+        {
+          "cameraRotateX" : 0.13943955302238464,
+          "cameraRotateY" : 0.27198648452758789,
+          "cameraZoomZ" : 1.5,
+          "language" : 3,
+          "mesh" : "sphere",
+          "title" : "Untitled",
+          "type" : "RenderPass",
+          "uuid" : "E7847A1E-8D19-4D92-90C0-E53A0B6839FA"
+        }
+      ],
+      "height" : 1080,
+      "nodeTitle" : "MetalRender",
+      "sizeLinked" : true,
+      "type" : "RenderNode",
+      "uuid" : "609BD0D7-2F7B-439E-870C-5FB0CBE06C69",
+      "width" : 1440,
+      "x" : 988.47080954162664,
+      "y" : -312.05959056637721
+    }
+  ],
+  "title" : "Animoji",
+  "transform" : [
+    0.51333540831201407,
+    186.60448579894626,
+    193.65525674352563
+  ]
+}
